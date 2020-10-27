@@ -1,5 +1,6 @@
 #Docker file for General Spring Boot Exercise
 FROM openjdk:8
+MAINTAINER Neha Patnaik <nehap1990@gmail.com>
 RUN mkdir springapp
 WORKDIR /springapp
 ADD target/GeneralProgExec-2.0.0-SNAPSHOT.jar GeneralProgExec-2.0.0-SNAPSHOT.jar
